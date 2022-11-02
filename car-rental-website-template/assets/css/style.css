@@ -15,6 +15,20 @@ body {
 	height: 100px;
 	margin-top: -45px;
 }
+.prices{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f33f3f;
+	height: 50px;
+	width: 180px;
+	color: white;
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 10px;
+}
 
 .website-counter {
 	display: flex;
