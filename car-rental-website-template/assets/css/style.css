@@ -6,6 +6,16 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.logo-title{
+	width: 10px;
+	height: 10px;
+}
+.logo-img{
+	width: 200px;
+	height: 100px;
+	margin-top: -45px;
+}
+
 .website-counter {
 	display: flex;
 	justify-content: center;
