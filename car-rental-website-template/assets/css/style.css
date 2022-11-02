@@ -30,6 +30,34 @@ body {
 	margin-top: 10px;
 }
 
+.langContainer{
+	margin-top: 10px;
+	z-index:300;
+}
+.langWrap{
+	z-index: 300;
+	border-radius: 12px;
+}
+
+.langWrap a{
+	z-index: 300;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding:0 15px;
+	font-weight: bold;
+	background: #555656;
+	font-size: 13px;
+	border-radius:12px
+}
+.langWrap a.active-language{
+	background: #f33f3f;
+}
+.langWrap a.lang-a:hover{
+	background: 
+	#f33f3f;
+}
+
 .website-counter {
 	display: flex;
 	justify-content: center;
