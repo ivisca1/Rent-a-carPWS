@@ -33,7 +33,7 @@ const contactus2 = document.querySelector('.contactus2');
 const websitevisitcount = document.querySelector('.websitevisitcount');
 
 const fleet = document.querySelector('.fleet');
-const fleet2 = document.querySelector('.fleet2');
+
 
 const homeclass1 = document.querySelector('.homeclass1');
 
@@ -45,16 +45,8 @@ const testimonials = document.querySelector('.testimonials');
 
 const uslovi = document.querySelector('.uslovi');
 
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
-//const offersclass1 = document.querySelector('.offersclass1');
+const more = document.querySelector('.more');
+
 
 
 
@@ -102,7 +94,7 @@ const uslovi = document.querySelector('.uslovi');
 	  websitevisitcount.textContent = data[attr].websitevisitcount;
 	  
 	  fleet.textContent = data[attr].fleet;
-	  fleet2.textContent = data[attr].fleet;
+	  
 	  
 	  homeclass1.textContent = data[attr].homeclass1;
 	  
@@ -115,11 +107,8 @@ const uslovi = document.querySelector('.uslovi');
 	  uslovi.textContent = data[attr].uslovi;
 	  
 	  
-	  offersclass1.textContent = data[attr].offersclass1;
-	  offersclass1.textContent = data[attr].offersclass1;
-	  offersclass1.textContent = data[attr].offersclass1;
-	  offersclass1.textContent = data[attr].offersclass1;
-	  offersclass1.textContent = data[attr].offersclass1;
+	  more.textContent = data[attr].more;
+
       
     })
   })
@@ -145,9 +134,8 @@ const uslovi = document.querySelector('.uslovi');
 		"blog": "Blog",
 		"team": "Team",
 		"testimonials": "Testimonials",
-		"offersclass1": "Offers",
-		"offersclass1": "Offers",
-		"offersclass1": "Offers",
+		"more": "More",
+
 		
 		
       
@@ -172,8 +160,8 @@ const uslovi = document.querySelector('.uslovi');
 		"blog": "Blog",
 		"team": "Tim",
 		"testimonials": "svjedočenja",
-		"offersclass1": "Ponude",
-		"offersclass1": "Ponude",
+		"more": "Više",
+		
 		
     }
   }
